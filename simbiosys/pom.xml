@@ -74,7 +74,11 @@
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.3.0</version>
         </dependency>
-
+         <!-- Jackson JSR310 (serializar LocalDateTime no JSON) -->
+         <dependency>
+             <groupId>com.fasterxml.jackson.datatype</groupId>
+             <artifactId>jackson-datatype-jsr310</artifactId>
+         </dependency>
         <!-- Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
