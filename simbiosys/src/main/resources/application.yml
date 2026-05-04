@@ -26,3 +26,7 @@ springdoc:
   swagger-ui:
     path: /swagger-ui.html
     tags-sorter: alpha
+    
+gemini:
+  api:
+    key: ${GEMINI_API_KEY:SUA_CHAVE_AQUI}
