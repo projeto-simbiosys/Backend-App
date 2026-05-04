@@ -1,6 +1,9 @@
 spring:
   application:
     name: simbiosys-api
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
 
   datasource:
     url: jdbc:mysql://localhost:3306/simbiosys?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Sao_Paulo
